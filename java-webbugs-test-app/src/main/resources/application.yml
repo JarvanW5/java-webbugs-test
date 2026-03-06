@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: java-webbugs-test-app
+  profiles:
+    active: dev
