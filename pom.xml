@@ -8,12 +8,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>java-webbugs-test-api</module>
         <module>java-webbugs-test-app</module>
-        <module>java-webbugs-test-domain</module>
-        <module>java-webbugs-test-trigger</module>
-        <module>java-webbugs-test-infrastructure</module>
-        <module>java-webbugs-test-types</module>
     </modules>
 
     <repositories>
@@ -116,32 +111,6 @@
                 <version>1.15</version>
             </dependency>
 
-            <!-- 工程模块 -->
-            <dependency>
-                <groupId>cn.wjwagent.ai</groupId>
-                <artifactId>java-webbugs-test-api</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.wjwagent.ai</groupId>
-                <artifactId>java-webbugs-test-domain</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.wjwagent.ai</groupId>
-                <artifactId>java-webbugs-test-infrastructure</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.wjwagent.ai</groupId>
-                <artifactId>java-webbugs-test-types</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.wjwagent.ai</groupId>
-                <artifactId>java-webbugs-test-trigger</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 

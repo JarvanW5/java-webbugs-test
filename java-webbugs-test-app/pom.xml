@@ -79,15 +79,6 @@
             <version>2.9.0</version>
         </dependency>
 
-        <!-- 工程模块；启动依赖 trigger->domain, infrastructure-->
-        <dependency>
-            <groupId>cn.wjwagent.ai</groupId>
-            <artifactId>java-webbugs-test-trigger</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>cn.wjwagent.ai</groupId>
-            <artifactId>java-webbugs-test-infrastructure</artifactId>
-        </dependency>
     </dependencies>
 
     <build>
